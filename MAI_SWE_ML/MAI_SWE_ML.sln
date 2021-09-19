@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MNISTClassification", "MNISTClassification\MNISTClassification.csproj", "{2141A5BF-3EC1-47BA-A606-442C7F917D06}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAI_SWE_MLML.Model", "MAI_SWE_MLML.Model\MAI_SWE_MLML.Model.csproj", "{10C83A0F-3928-4CDB-8F2A-8A427D3EC32B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAI_SWE_MLML.ConsoleApp", "MAI_SWE_MLML.ConsoleApp\MAI_SWE_MLML.ConsoleApp.csproj", "{083CDC48-9A9A-47E9-A7FF-431EA7CCBE03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2141A5BF-3EC1-47BA-A606-442C7F917D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2141A5BF-3EC1-47BA-A606-442C7F917D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2141A5BF-3EC1-47BA-A606-442C7F917D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C83A0F-3928-4CDB-8F2A-8A427D3EC32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C83A0F-3928-4CDB-8F2A-8A427D3EC32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C83A0F-3928-4CDB-8F2A-8A427D3EC32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C83A0F-3928-4CDB-8F2A-8A427D3EC32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083CDC48-9A9A-47E9-A7FF-431EA7CCBE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083CDC48-9A9A-47E9-A7FF-431EA7CCBE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083CDC48-9A9A-47E9-A7FF-431EA7CCBE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083CDC48-9A9A-47E9-A7FF-431EA7CCBE03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

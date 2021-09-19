@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MAI_SWE_MLML.Model\MAI_SWE_MLML.Model.csproj">
+      <Project>{10C83A0F-3928-4CDB-8F2A-8A427D3EC32B}</Project>
+      <Name>MAI_SWE_MLML.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
