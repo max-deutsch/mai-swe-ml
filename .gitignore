@@ -350,5 +350,5 @@ MigrationBackup/
 .ionide/
 
 
-MAI_SWE_ML/MAI_SWE_MLML.Model/MLModel.zip
+# MAI_SWE_ML/MAI_SWE_MLML.Model/MLModel.zip
 MAI_SWE_ML/MNISTClassification/*
