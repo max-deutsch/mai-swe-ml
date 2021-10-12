@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/digits/classifications",
+      "launchUrl": "api/digits/classifications/C%3A%5CFH%5Cws21%5Cswe%5Cmnist_course_small%5Ccourse_small%5C2%5C113.png",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
