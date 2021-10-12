@@ -4,5 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MAI_SWE_MLML.Model\MAI_SWE_MLML.Model.csproj" />
+  </ItemGroup>
+
 
 </Project>

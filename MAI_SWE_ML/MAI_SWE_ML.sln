@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAI_SWE_MLML.ConsoleApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "RestApi\RestApi.csproj", "{FA309C10-7CE6-4F22-B5CA-8B0B6150D702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassificationRestApi", "ClassificationRestApi\ClassificationRestApi.csproj", "{ADE26852-5CC3-437A-B389-3EAFEAD43563}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{FA309C10-7CE6-4F22-B5CA-8B0B6150D702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA309C10-7CE6-4F22-B5CA-8B0B6150D702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA309C10-7CE6-4F22-B5CA-8B0B6150D702}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADE26852-5CC3-437A-B389-3EAFEAD43563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADE26852-5CC3-437A-B389-3EAFEAD43563}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADE26852-5CC3-437A-B389-3EAFEAD43563}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADE26852-5CC3-437A-B389-3EAFEAD43563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
