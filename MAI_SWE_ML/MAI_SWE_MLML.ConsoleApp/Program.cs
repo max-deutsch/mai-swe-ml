@@ -12,7 +12,7 @@ namespace MAI_SWE_MLML.ConsoleApp
             // Create single instance of sample data from first line of dataset for model input
             ModelInput sampleData = new ModelInput()
             {
-                ImageSource = @"C:\max\fhtechnikum\ws21\swe\mnist_png\training\0\1.png",
+                ImageSource = @"C:\FH\ws21\swe\mnist_course_small\course_small\2\113.png",
             };
 
             // Make a single prediction on the sample data and print results

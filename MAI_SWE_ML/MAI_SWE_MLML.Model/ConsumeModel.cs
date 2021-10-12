@@ -29,7 +29,8 @@ namespace MAI_SWE_MLML.Model
 
             // Load model & create prediction engine
             //string modelPath = @"C:\Users\veren\AppData\Local\Temp\MLVSTools\MAI_SWE_MLML\MAI_SWE_MLML.Model\MLModel.zip";
-            string modelPath = @"C:\max\fhtechnikum\ws21\swe\mai-swe-ml\MAI_SWE_ML\MAI_SWE_MLML.Model\MLModel.zip";
+            string modelPath = @"C:\FH\ws21\swe\mai-swe-ml\MAI_SWE_ML\MAI_SWE_MLML.Model\MLModel.zip";
+        
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
