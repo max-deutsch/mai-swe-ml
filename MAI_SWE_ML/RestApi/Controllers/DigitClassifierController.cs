@@ -13,19 +13,19 @@ namespace RestApi.Controllers
     public class DigitClassifierController : Controller
     {
 
-        public MAI_SWE_MLML.Model.ModelOutput predictDigitTest()
+        public MAI_SWE_MLML.Model.ModelOutput PredictDigitTest()
         {
-            return predict(@"C:\FH\ws21\swe\mnist_course_small\course_small\2\113.png");
+            return Predict(@"C:\FH\ws21\swe\mnist_course_small\course_small\2\113.png");
         }
 
         [HttpGet("{path}")]
-        public MAI_SWE_MLML.Model.ModelOutput predictDigitByPath(string path)
+        public MAI_SWE_MLML.Model.ModelOutput PredictDigitByPath(string path)
         {
             path = System.Web.HttpUtility.UrlDecode(path);
-            return predict(path);
+            return Predict(path);
         }
 
-        private MAI_SWE_MLML.Model.ModelOutput predict(string path)
+        private MAI_SWE_MLML.Model.ModelOutput Predict(string path)
         {
             MAI_SWE_MLML.Model.ModelInput sampleData = new MAI_SWE_MLML.Model.ModelInput()
             {
